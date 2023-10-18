@@ -10,7 +10,7 @@ First area covered 2000x2000 meters on big maps, and 1000x10000 on small maps an
 
 Second area covered an additional 1000 meters on big maps and 500 on small maps around the first area and consisted of mirrored parts from it. This area had the lowest detail (16 polygons), didn't have any objects on it and was removed becouse of that.
 
-Original objects had their position (X, Y, Z) at 0, 0, 0, with some models stitched together into one. Almost all models were represented with lowest LOD possiable (to the point of beeing a cube). All models were sorted into groups for easier use (Bush, Rock, Structure, Tree). Bush and Tree models were unstitched and their model origin was reset to geometry (the center of mass), as a result you can use their X and Y position (Z position will be off, so you will need to get around that, I suggest casting a ray at X, Y in the air, down towards the terrain and spawn a required model on collision). Positions were exported into `.txt` files, located in map's `Object` folder. Rock models weren't sorted (there are almost 3000 of them on every map, sorting and unstitching them into separate models will be a pain). Structure models weren't sorted and may contain dynamic objects (units, vehicles), extracted from the GPU memory.
+Original objects had their position (X, Y, Z) at 0, 0, 0, with some models stitched together into one. Almost all models were represented with lowest LOD possiable (to the point of beeing a cube). All models were sorted into groups for easier use (Bush, Rock, Structure, Tree). Subgroups will contain different objects on different maps, even if they have the same name (Bush1, Bush2, Bush3). Bush and Tree models were unstitched and their model origin was reset to geometry (the center of mass), as a result you can use their X and Y positions (Z position will be off, so you will need to get around that, I suggest casting a ray at X, Y in the air, down towards the terrain and spawn a required model on collision). Positions were exported into `.txt` files, located in map's `Object` folder. Rock models weren't sorted (there are almost 3000 of them on every map, sorting and unstitching them into separate models will be a pain). Structure models weren't sorted and may contain dynamic objects (units, vehicles), extracted from the GPU memory.
 
 # To Do:
 ColmarHamlet - Unstitch objects, reset objects origin, export objects positions.
@@ -21,15 +21,11 @@ ForwardAirfield - Unstitch objects, reset objects origin, export objects positio
 
 Hill60 - Unstitch objects, reset objects origin, export objects positions.
 
-Khutor - Reset objects origin, export objects positions.
-
 KrepostOutpost - Process terrain, Sort objects, Unstitch objects, reset objects origin, export objects positions.
 
 MountainTown - Unstitch objects, reset objects origin, export objects positions.
 
 SamreeDepot - Process terrain, Sort objects, Unstitch objects, reset objects origin, export objects positions.
-
-Sawmill - Reset objects origin, export objects positions.
 
 Town - Unstitch objects, reset objects origin, export objects positions.
 
