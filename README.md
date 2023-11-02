@@ -32,6 +32,8 @@ Town - Unstitch objects, reset objects origin, export objects position.
 VillageSkirmish - Process terrain, Sort objects, Unstitch objects, reset objects origin, export objects positions.
 
 # Thanks:
+BluRay - Sorting objects in Blender.
+
 Elkkut - Providing Ninja Ripper files.
 
-BluRay - Sorting objects in Blender.
+Hubtub - Processing assets.
