@@ -13,13 +13,13 @@ Second area covered an additional 1000 meters on big maps and 500 on small maps 
 Almost all models were represented with lowest LOD possible (to the point of being a cube), with no information about original position and rotation. All models were sorted into groups (Bush, Rock, Structure, Tree) and subgroups (Bush1, Bush2, Bush3) based on the size (bushes, rocks) or model type (trees). Note that if the original bush model had different scale it could have gone into `Bush1`, `Bush2`, `Bush3` at the same time. Every model position and rotation (apart `Structure` group) was restored. Note that these models will have position slightly off, because of restoration method, with different rotation (should not matter for bushes, rocks, trees).
 
 # To Do:
-Factory - Sort Bush / Swap Bush, Rock, Tree
+Factory - Sort Bush / Swap Bush, Rock
 
 Hill60 - Sort Bush / Swap Bush
 
-Khutor - Sort Bush / Swap Bush, Tree
+Khutor - Sort Bush / Swap Bush
 
-KrepostOutpost - Sort Bush, Tree / Swap Bush, Tree
+KrepostOutpost - Sort Bush / Swap Bush
 
 SamreeDepot - Unpack Terrain / Swap Rock
 
