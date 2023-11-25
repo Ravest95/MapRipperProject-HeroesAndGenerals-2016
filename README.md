@@ -6,13 +6,13 @@ Notice: Maps are restored and don't have 100% accurate terrain, object position 
 # Files:
 `MAP_NAME\Map.blend` - Restored map.
 
-`MAP_NAME\GameMap.png` - Unpacked game texture.
+`MAP_NAME\GameMap.png` - Unpacked game texture, adjusted to new 2048x2048 and 1024x1024 terrain size (green colour).
 
-`MAP_NAME\TerrainFeatures.png` - Unpacked game texture.
+`MAP_NAME\TerrainFeatures.png` - Unpacked game texture, adjusted to new 2048x2048 and 1024x1024 terrain size (green colour).
 
-`MAP_NAME\TerrainMaterialIndex.png` - Unpacked game texture.
+`MAP_NAME\TerrainMaterialIndex.png` - Unpacked game texture, adjusted to new 2048x2048 and 1024x1024 terrain size (green colour).
 
-`MAP_NAME\Object\OBJECT_GROUP\OBJECT_SUBGROUP.txt` - Exported objects position and rotation.
+`MAP_NAME\Object\OBJECT_GROUP\OBJECT_SUBGROUP.txt` - Exported Blender objects position and rotation.
 
 # Restoration:
 - Terrain:
@@ -24,7 +24,7 @@ Notice: Maps are restored and don't have 100% accurate terrain, object position 
   Almost all models were extracted with lowest level of detail possible, sometimes to the point of being a cube, with no information about position and rotation. All models were sorted into groups (Bush, Rock, Structure, Tree) and subgroups (Bush1, Bush2, Bush3) based on the size or model type (notice that if the original rock model had different scale it could have gone into Rock1, Rock2, Rock3 at the same time). Every model position and rotation (apart from Structure group) was restored (notice that rotation was simply randomized, but it shouldn't matter for bushes, rocks and trees).
 
 # To Do:
-Sort bushed for: Factory, Hill60, Khutor, KrepostOutpost, VillageSkirmish
+Sort bushed for: Factory, Hill60, Khutor, KrepostOutpost
 
 # Thanks:
 Elkkut - Providing Ninja Ripper files.
