@@ -1,4 +1,4 @@
-# Heroes and Generals - 2016 - Maps
+# MapRipperProject - Heroes and Generals - 2016
 The project contains restored maps from the game Heroes and Generals - 2016, converted into Blender format.
 
 Notice: Maps are restored and don't have 100% accurate terrain, object position and rotation (although this is the best accuracy you can achieve). This is due to the nature of application that was used to extract assets (Ninja Ripper extracts models from GPU memory, that are rendered in the game window, everything that is not present is not extracted). Because the extraction was performed at the spawn screen (usually, the camera is above the center of the map, showing only half of it) a lot of the objects are missing.
