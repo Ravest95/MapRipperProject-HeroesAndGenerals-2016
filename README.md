@@ -4,9 +4,9 @@ MapRipperProject is a Unity game engine project that contains recreated maps fro
 Notice: Maps are recreated and don't have 100% accuracy, although it is really close and possibly the best you can achieve right now.
 
 # Unity
-Since the project is using Unity engine to assemble the maps, it is important to download Unity 6 (6000.0.24f1).
+Since the project is using Unity engine to assemble the maps, it is important to download Unity 6 (6000.0.24f1) beforehand.
 
-Notice: Choice of game engine doesn't matter because it is used as a base for assembling Heroes and Generals together (terrains, models, textures).
+Notice: Choice of game engine doesn't matter because it is used as a base for assembling Heroes and Generals maps together (terrains, models, textures).
 
 # Thanks:
 - Tier 1: Hisatshi
